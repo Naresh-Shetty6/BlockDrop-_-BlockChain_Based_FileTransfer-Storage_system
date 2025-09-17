@@ -58,7 +58,7 @@ BlockDrop is a cutting-edge decentralized file sharing application that combines
    
    Update `.env` with your contract address:
    ```
-   REACT_APP_CONTRACT_ADDRESS=0x742d35Cc6634C0532925a3b8D8d4C8b8f8b8f8b8
+   REACT_APP_CONTRACT_ADDRESS=
    ```
 
 4. **Start development server**
