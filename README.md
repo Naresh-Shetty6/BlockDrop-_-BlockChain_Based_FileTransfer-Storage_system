@@ -42,7 +42,7 @@ BlockDrop is a cutting-edge decentralized file sharing application that combines
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Naresh-Shetty6/BlockDrop-_-BlockChain_Based_FileTransfer-Storage_system
    cd BlockDrop
    ```
 
