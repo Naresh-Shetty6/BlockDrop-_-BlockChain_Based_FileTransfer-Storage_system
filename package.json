@@ -1,0 +1,55 @@
+{
+  "name": "blockdrop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.1",
+    "buffer": "^6.0.3",
+    "crypto-js": "^4.2.0",
+    "ethers": "^5.7.2",
+    "ipfs-http-client": "^60.0.1",
+    "lucide-react": "^0.292.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^3.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network sepolia",
+    "deploy-local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy-contract": "npx hardhat run scripts/deploy.js --network sepolia"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "crypto-browserify": "^3.12.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.17.1",
+    "dotenv": "^16.3.1",
+    "solc": "^0.8.19"
+  }
+}
