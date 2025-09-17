@@ -197,7 +197,7 @@ Built with ❤️ using React, Ethereum, and IPFS
 
 
 
-# CipherDrive
+# BlockDrop
 
 Decentralized, end-to-end encrypted file storage and sharing system powered by IPFS and Ethereum blockchain.
 
@@ -221,8 +221,9 @@ Decentralized, end-to-end encrypted file storage and sharing system powered by I
 
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/CipherDrive.git
-    cd CipherDrive
+    git clone https://github.com/yourusername/BlockDrop.git
+    cd BlockDrop
+    
     ```
 2. Install dependencies:
     ```
@@ -244,11 +245,11 @@ MIT License (see LICENSE file)
 
 ## Screenshot
 
-![CipherDrive Demo](demo/screenshot.png)
+![BlockDrop Demo](demo/screenshot.png)
 
 ## Author
 
-- [Your Name](https://github.com/yourusername)
+- [Naresh G](https://github.com/Naresh-Shetty6)
 
 ## Tags
 
